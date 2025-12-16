@@ -17,4 +17,4 @@ It keeps varialble data like logs, cache etc.
 There are always 10 characters in permission string. 1 character is for file type, next 3 are for owner permission, further next 3 are for group permissions and last 3 are for others. 600 ensure that only owner can read/write file, preventing others from acccessing sensitive data.
 
 ## One thing I found interesting or confusing
-I found File permissions main linux making use of 10 characters in linux interesting and moreover expressing it in terms of numbers makes it more interesting.
+I found File permissions in linux making use of 10 characters in linux interesting and moreover expressing it in terms of numbers makes it more interesting.
