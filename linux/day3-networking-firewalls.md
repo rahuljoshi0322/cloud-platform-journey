@@ -4,7 +4,7 @@
 Port 22 is a number identification over which ssh service connects/listens
 
 ## How I checked listening services
-I ran ss -tuln which shows what ports are listening. The sudo ss -tulpnm command shows which service is running on a particular port.
+I ran ss -tuln which shows what ports are listening. The sudo ss -tulpn command shows which service is running on a particular port.
 
 ## Difference between Linux firewall and GCP firewall
 Linux firewall is inbuilt OS firewall whereas GCP firewall will control at the cloud level. Firewall controls who can reach the device.
